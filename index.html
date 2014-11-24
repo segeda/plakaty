@@ -23,8 +23,6 @@
                       var dl = $('<dl></dl>');
                       $("<dt></dt>").text('date_taken').appendTo(dl);
                       $("<dd></dd>").text(item.date_taken).appendTo(dl);
-                      $("<dt></dt>").text('published').appendTo(dl);
-                      $("<dd></dd>").text(item.published).appendTo(dl);
                       dl.appendTo(div);
                       $("<img/>").attr("src", item.media.m.replace('_m.', '.')).appendTo(div);
                       div.appendTo('#images');
